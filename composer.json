@@ -1,5 +1,5 @@
 {
-    "name": "vansari/json-schema-form-bundle",
+    "name": "cyve/json-schema-form-bundle",
     "description": "Create Symfony forms from JSON schema",
     "type": "symfony-bundle",
     "license": "MIT",
