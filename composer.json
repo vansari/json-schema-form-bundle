@@ -1,5 +1,5 @@
 {
-    "name": "cyve/json-schema-form-bundle",
+    "name": "vansari/json-schema-form-bundle",
     "description": "Create Symfony forms from JSON schema",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Cyril Vermande",
             "homepage": "https://www.cyrilwebdesign.com"
+        },
+        {
+            "name": "Kurt Junker",
+            "email": "junker.kurt@gmail.com"
         }
     ],
     "require": {
