@@ -6,7 +6,7 @@ Creates a Symfony form from a [JSON schema](https://json-schema.org).
 
 With [Composer](http://packagist.org):
 ```sh
-composer require cyve/json-schema-form-bundle
+composer require vansari/json-schema-form-bundle
 ```
 
 ## Usage
