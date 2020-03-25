@@ -48,6 +48,7 @@ The form option `data_schema` MUST be an `object` representing a JSON schema.
 | `type: "object"` | `SchemaType` | `data_schema` is set with the object sub-schema |
 | `type: "integer"` | `IntegerType` | |
 | `type: "number"` | `NumberType` | |
+| `type: "number"` and `minimum: 0` and `maximum: 10` | `RangeType` | `attr` is set to `min=<minimum>, max=<maximum>`, it also supports exclusiveMinimum and exclusiveMaximum|
 | `type: "boolean"` | `CheckboxType` | |
 | `type: "string"` and `format: "date-time"` | `DateTimeType` | `input_format` is set to `"c"` ([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
 | `type: "string"` and `format: "date"` | `DateType` | `input_format` is set to `"Y-m-d"` |
