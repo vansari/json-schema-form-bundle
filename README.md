@@ -4,9 +4,22 @@ Creates a Symfony form from a [JSON schema](https://json-schema.org).
 
 ## Installation:
 
+### Optional
+If you want the support of RangeType and nested JSON-Schemas then add the follwing lines to your Composer.json:
+
+```json
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/vansari/json-schema-form-bundle"
+        }
+    ]
+```
+
 With [Composer](http://packagist.org):
+
 ```sh
-composer require vansari/json-schema-form-bundle
+composer require cyve/json-schema-form-bundle
 ```
 
 ## Usage
